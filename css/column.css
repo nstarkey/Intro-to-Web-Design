@@ -1,0 +1,29 @@
+
+*{box-sizing: border-box;}
+
+div {
+	float: left;
+	
+}
+
+.column {
+	width: 150px;
+	height: 500px;
+	background-color: blue;
+	border: solid white 1px;
+	
+}
+.container {
+	width: 500px;
+}
+.bar1 {
+	width: 450px;
+	height: 100px;
+	background-color: red;
+}
+.bar2 {
+	width: 450px;
+	height: 25px;
+	background-color: yellow;
+}
+
