@@ -12,3 +12,6 @@ a {
 	color: darkviolet;
 	text-decoration: none;
 }
+a:hover {
+	color: gray;
+}

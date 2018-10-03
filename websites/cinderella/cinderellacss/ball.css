@@ -9,6 +9,10 @@ a {
 	text-decoration: none;
 	color: darkviolet;
 }
+a:hover {
+	text-decoration: none;
+	color: magenta;
+}
 body {
 	background-color: lightpink;
 }

@@ -13,3 +13,6 @@ a {
 body {
 	background-color: lightpink;
 }
+a:hover {
+	color: magenta;
+}

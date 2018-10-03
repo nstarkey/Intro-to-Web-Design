@@ -12,3 +12,6 @@ a {
 	color: darkviolet;
 	
 }
+a:hover {
+	color: gray;
+}
