@@ -3,11 +3,13 @@ p {
 	font-family: 'K2D', sans-serif;
 	margin: 250px;
 	line-height: 40px;
-}
-body {
-	background-color: lightgray;
+	color: darkviolet;
+	
 }
 a {
 	text-decoration: none;
 	color: darkviolet;
+}
+body {
+	background-color: lightpink;
 }
