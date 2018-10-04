@@ -15,4 +15,5 @@ body {
 }
 a:hover {
 	color: magenta;
+	text-shadow: 1px 1px black;
 }

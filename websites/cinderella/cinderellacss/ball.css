@@ -12,6 +12,8 @@ a {
 a:hover {
 	text-decoration: none;
 	color: magenta;
+	text-shadow: 1px 1px black;
+
 }
 body {
 	background-color: lightpink;
