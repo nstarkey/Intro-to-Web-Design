@@ -1,0 +1,43 @@
+.rectangle {
+	position: absolute;
+	height: 800px;
+	width: 100px;
+	background-color: tomato;
+	left: 0px;
+	top: 0px;
+
+}
+.rectangle2 {
+	position: absolute;
+	height: 800px;
+	width: 100px;
+	background-color: tomato;
+	right: 0px;
+	top: 0px;
+}
+.h1 {
+	position: absolute;
+	left: 180px;
+	font-size: 55px;
+}
+.h2 {
+	position: absolute;
+	left: 240px;
+	font-size: 13px;
+	top: 93px;
+}
+.h3 {
+	position: absolute;
+	top: -35px;
+	font-size: 225px;
+	left: 170px;
+
+}
+.paragraph {
+	position: absolute;
+	top: 250px;
+	left: 300px;
+	right: 400px;
+	line-height: 20px;
+	font-size: 20px;
+}

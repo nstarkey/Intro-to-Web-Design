@@ -1,0 +1,29 @@
+.h1 {
+	position: absolute;
+	font-size: 100px;
+	left: 70px;
+}
+.h2 {
+	position: absolute;
+	font-size: 25px;
+	top: 150px;
+	left: 180px;
+	color: powderblue;
+}
+
+
+
+.h3 {
+	position: absolute;
+	font-size: 30px;
+	top: 295px;
+	left: 180px;
+	color: powderblue;
+}
+.paragraph {
+	position: absolute;
+	top: 420px;
+	left: 70px;
+	right: 300px;
+	font-size: 25px;
+}

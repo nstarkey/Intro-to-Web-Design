@@ -1,0 +1,26 @@
+.rectangle1 {
+	
+	background-color: black;
+	width: 150px;
+	height: 900px;
+	top: -146px;
+	position: absolute;
+	left: 0px;
+}
+
+
+.paragraph {
+	left: 200px;
+	right: 500px;
+	top: 300px;
+	position: absolute;
+	font-size: 18px;
+	font-family: 'Amiri', serif;
+
+}
+.head {
+	position: absolute;
+	left: 200px;
+	top: 90px;
+	font-family: 'Cinzel', serif;
+}

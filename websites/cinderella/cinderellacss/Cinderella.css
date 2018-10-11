@@ -7,10 +7,10 @@ p {
 }
 a {
 	text-decoration: none;
-	color: darkviolet;
+	color: indigo;
 }
 a:hover {
-	color: magenta;
+	color: darkviolet;
 	text-shadow: 1px 1px black;
 }
 body {

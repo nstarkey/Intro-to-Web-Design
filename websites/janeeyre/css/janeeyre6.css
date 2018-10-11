@@ -1,0 +1,37 @@
+
+.h2 {
+	
+	top: 20px;
+	left: 520px;
+	position: absolute;
+	font-size: 15px;
+	font-family: 'Pacifico', cursive;
+}
+.h1 {
+	
+	top: 440px;
+	left: 440px;
+	position: absolute;
+	font-size: 40px;
+	font-family: 'Pacifico', cursive;
+}
+.h3 {
+	top: 150px;
+	left: 250px;
+	position: fixed;
+	font-size: 25px;
+	font-family: 'Nunito Sans', sans-serif;
+}
+.paragraph {
+	position: fixed;
+	top: 200px;
+	left: 250px;
+	right: 275px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: left;
+	font-family: 'Nunito Sans', sans-serif;
+
+
+
+}

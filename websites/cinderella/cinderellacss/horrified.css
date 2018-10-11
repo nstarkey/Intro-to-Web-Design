@@ -1,11 +1,24 @@
 p {
 	font-size: 30px;
 	font-family: 'K2D', sans-serif;
-	margin: 250px;
+	margin-top: 150px;
+	margin-left: 200px;
+	margin-right: 200px;
 	line-height: 40px;
-	color: red;
+	color: rgb(176, 0, 0);
 	
 }
 body {
 	background-color: black;
+}
+a {
+	margin-left: 200px;
+	margin-top: 400px;
+	font-size: 25px;
+	text-decoration: none;
+	color: rgb(176, 0, 0);
+	font-family: 'K2D', sans-serif;
+}
+a:hover {
+	text-shadow: 1px 1px gray;
 }

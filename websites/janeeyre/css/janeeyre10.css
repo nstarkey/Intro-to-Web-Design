@@ -1,0 +1,50 @@
+.paragraph {
+	position: absolute;
+	left: 600px;
+	right: 200px;
+	font-size: 18px;
+	top: 300px;
+	font-family: 'Noto Serif', serif;
+	
+}
+.h1 {
+	position: absolute;
+	left: 600px;
+	top: 90px;
+	font-size: 50px;
+	font-family: 'Poiret One', cursive;
+
+	
+}
+.h2 {
+	position: absolute;
+	left: 650px;
+	top: 240px;
+	font-size: 18px;
+	font-family: 'Noto Serif', serif;
+	
+}
+.h3 {
+	position: absolute;
+	font-size: 100px;
+	top: 299px;
+	left: 380px;
+	transform: rotate(270deg);
+	font-family: 'Poiret One', cursive;
+	
+}
+.container {
+width: 1000px;
+height: 800px;
+background-color: white;
+margin-left: 300px;
+margin-top: -2px;
+border-left: 15px solid red;
+
+
+
+
+}
+body {
+	background-color: powderblue;
+}

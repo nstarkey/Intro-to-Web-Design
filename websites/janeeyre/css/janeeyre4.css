@@ -1,0 +1,23 @@
+.h1 {
+	font-size: 75px;
+	position: absolute;
+	left: 50px;
+	font-family: 'Vollkorn', serif;
+	top: -10px;
+	color: tomato;
+}
+.main {
+position: absolute;
+top: 300px;
+left: 50px;
+right: 350px;
+font-size: 20px;
+line-height: 30px;
+font-family: 'Merriweather', serif;
+}
+.h2 {
+	position: absolute;
+	left: 50px;
+	top: 25px;
+	font-family: 'Merriweather', serif;
+}
