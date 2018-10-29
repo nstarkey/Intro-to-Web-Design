@@ -1,0 +1,20 @@
+.leftcol, .rightcol {
+	float:left;
+}
+.leftcol {
+	width: calc((100% / 2) - 25px);
+	margin-left: 25px;
+}
+.rightcol {
+	width: calc((100% / 2) - 25px);
+	margin-right: 25px;
+
+}
+#container {
+	width: 75vw;
+	margin: 0 auto;
+}
+.image2 {
+	
+
+}
