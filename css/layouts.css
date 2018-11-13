@@ -8,21 +8,24 @@
     clear: both;
 }
 
+.mobile-only {
+	display: none;
+}
 h1 {
 	color: orange;
 	font-size: 80px;
-	margin: 30px;
 	font-family: 'Abril Fatface', cursive;
+	line-height: 30px;
 }
 h2 {
 	font-size: 22px;
-	margin: 30px;
+	line-height: 5px;
 	font-family: 'Source Sans Pro', sans-serif;
 
 }
 h3 {
 	font-size: 15px;
-	margin: 30px;
+	
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h5 {
@@ -30,19 +33,22 @@ h5 {
 	color: orange;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
-	
+	margin-bottom: 0px;
+	margin-top: 50px;
 }
 p {
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
+
 }
 .header {
 	text-align: center;
+	margin-bottom: 0px;
 	
 }
 
 .leftcol, .rightcol {
-	float:left;
+	float: left;
 }
 .leftcol {
 	width: calc((100% / 2) - 25px);
@@ -73,13 +79,13 @@ p {
 .image3 img {
 	width: 83%;
 	height: auto;
-	margin-top: 70px;
+	margin-top: -150px;
 	
 }
 .image4 img {
 	width: 85%;
 	height: auto;
-	margin-top: 70px;
+	margin-top: -200px;
 }
 
 
@@ -92,27 +98,150 @@ h4 {
 	padding-bottom: 5px;
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
+	}
+.summary {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media only screen and (min-width: 1600px) {
+
+	#container {
+		width: 1050px;
+	}
+	
+	
+	.image4 img {
+		margin-top: -50px;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+
+.mobile-only {
+	display: block;
+}
+.desktop-only {
+	display: none;
+}
+h1 {
+	
+	font-size: 80px;
+	font-family: 'Abril Fatface', cursive;
+}
+h2 {
+	font-size: 22px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+h3 {
+	font-size: 15px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h5 {
+	font-size: 20px;
+	color: orange;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	margin-left: 120px;
+
+	
+}
+p {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	width: 70vw;
+	margin-left: 120px;
+	line-height: 25px;
+}
+.header {
+	text-align: center;
+	margin-bottom: 0px;
+	
+}
+
+#container {
+	width: 100vw;
+	margin-bottom: 0px;
+}
+.image2 img {
+	
+	height: auto;
+	width: 70vw;
+	
+}
+.image1 img {
+	
+	height: auto;
+	width: 80vw;
+
+	
+
+}
+.image3 img {
+	margin: 0px;
+	height: auto;
+	
+	
+}
+.image4 img {
+	margin: 0px;
+	height: auto;
+	
+
+}
+.tablet {
+	
+   
+    
+	
+	
+}
+.leftcol {
+	width: 80vw;
+	margin-left: 120px;
+	position:;
+
+}
+.rightcol {
+	width: 100vw;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+
+h4 {
+	text-align: center;
+	/*border-bottom: 2px solid black;*/
+	border-bottom: 2px solid black; 
+	border-top: 2px solid black; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 0px;
+	
+}
+.summary p {
+	
+	line-height: 25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	margin-left: 120px;
 	
 }
 
 @media only screen and (max-width: 600px) {
 
 h1 {
-	
-	color: green;
 	font-size: 80px;
-	margin: 30px;
 	font-family: 'Abril Fatface', cursive;
 }
 h2 {
 	font-size: 22px;
-	margin: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
-
 }
 h3 {
 	font-size: 15px;
-	margin: 30px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
 h5 {
@@ -121,13 +250,18 @@ h5 {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: bold;
 	margin-top: 30px;
+	margin-left: 15px;
+	margin-bottom: 0px;
 	
 }
 p {
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 	width: 95vw;
-	margin-top: 5px;
+	margin-top: 0px;
+	margin-left: 15px;
+	
+	
 }
 .header {
 	text-align: center;
@@ -141,35 +275,39 @@ p {
 .image2 img {
 	width: 225%;
 	height: auto;
-	margin-top: 50px;
-	margin-left: -40px;
+	margin-top: 20px;
+
 
 }
 .image1 img {
 	width: 100%;
 	height: auto;
 	margin-top: 20px;
-	margin-left: -20px;
+	margin-left: 0px;
 
 }
 .image3 img {
 	width: 230%;
 	height: auto;
-	margin-top: 50px;
-	margin-left:-35px;
+	margin-top: 20px;
+	
 	
 }
 .image4 img {
 	width: 240%;
 	height: auto;
-	margin-top: 50px;
-	margin-left: -35px;
+	margin-top: 25px;
+	
 
 
 	
 }
 .rightcol {
 	width: 100vw;
+}
+.leftcol {
+	width: 45vw;
+	margin-left: 0px;
 }
 
 h4 {
@@ -181,5 +319,20 @@ h4 {
 	padding-bottom: 5px;
 	font-size: 18px;
 	font-family: 'Source Sans Pro', sans-serif;
-	margin-left: -20px;
+	margin-left: 0px;
+	margin-top: 5px;
+	
 }
+.summary p {
+		font-family: 'Source Sans Pro', sans-serif;
+		text-align: left;
+		width: 95vw;
+		margin-left: 15px;
+		margin-top: 60px;
+	}
+	.tablet {
+		margin: 0px;
+
+
+	}
+
