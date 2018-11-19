@@ -1,7 +1,4 @@
-#container {
 
-
-}
 h1 {
 	text-align: center;
 	line-height: 100px;
@@ -17,6 +14,10 @@ h1 {
 	background-color: #FFDAB9;
 	color: #FFDAB9;
 }
+.peach2 {
+	background-color: orange;
+	width: 100vw;
+}
 .powderblue {
 	background-color: powderblue;
 	color: powderblue;
@@ -24,6 +25,10 @@ h1 {
 .mint {
 	background-color: #3EB489;
 	color: #3EB489 ;
+}
+.mint2 {
+	background-color: #3EB489;
+	width: 100vw;
 }
 .coral {
 	background-color: coral;
@@ -44,6 +49,7 @@ h1 {
 	font-size: 70px;
 
 }
+
 .jqhover {
 	cursor: progress;
 }

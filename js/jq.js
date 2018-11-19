@@ -14,11 +14,9 @@ $(document).ready(function(){
     })
     $('.periwinkle').mouseleave(function(){
     	$('.periwinkle').removeClass('black');
-        
     })
-  
-        
-});
+   
+   });
 	   $('.peach').mouseenter(function(){
     	$('.peach').addClass('black');
     })
