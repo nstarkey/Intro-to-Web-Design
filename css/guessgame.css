@@ -1,0 +1,25 @@
+
+.container {
+	text-align: center;
+	margin-top: 100px;
+	
+	
+}
+h1 {
+	font-family: 'Comfortaa', cursive;
+
+}
+
+img {
+	width: 50vw;
+}
+h2 {
+	border: solid 1px black;
+	padding: 4px;
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: white;
+	font-size: 20px;
+}
+body{
+
+	 background-color: #FFDAB9;
