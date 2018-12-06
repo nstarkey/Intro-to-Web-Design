@@ -207,11 +207,8 @@ img {
 p {
 	width: 80vw;
 	font-family: 'Khula', sans-serif;
-	font-size: 16px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 50px;
-	text-align: justify;
+	font-size: 18px;
+	margin: 0 auto;
 
 }
 h1 {
