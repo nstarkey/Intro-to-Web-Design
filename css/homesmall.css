@@ -1,17 +1,23 @@
 
-
-}
 .titleImage {
-		margin: 0 auto;
-		width: 80vw;
-		height: 100vh;
+		width: 100vw;
+		height: 120vh;
 		background: url(../websites/collection/home.jpg) no-repeat center center; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
+
 	
 	}
+.aboutImage:hover  {
+	opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.collectionImage:hover {
+	opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 		.aboutImage {
 		width: 100vw;
 		height: 80vh;
@@ -43,19 +49,24 @@
 		padding-top: 40vh;
 		margin: 0;
 	}
+		.titleImage h1  {
+		font-size: 60px;
+		font-family: 'Raleway', sans-serif;
+		text-align: center;
+		margin: 0 auto;
+		padding: 5vw;
+		}
 
 body {
 	margin: 0 auto;
 }
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 1000px) {
 
-		
-	}
 	.titleImage {
 		width: 100vw;
-		height: 110vh;
+		height: 90vh;
 		background: url(../websites/collection/home.jpg) no-repeat center center; 
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -83,10 +94,11 @@ body {
 	}
 	.titleImage h1  {
 		font-size: 50px;
-		font-family: 'Khula', sans-serif;
 		text-align: center;
-		padding-top: 5vh;
-		margin: 0;
+		padding: 10vw;
+
+		
+		
 
 	}
 	.aboutImage h2, .collectionImage h2 {
@@ -132,7 +144,6 @@ body {
 	}
 	.titleImage h1  {
 		font-size: 50px;
-		font-family: 'Khula', sans-serif;
 		text-align: center;
 		padding-top: 5vh;
 		margin: 0;
