@@ -1,0 +1,148 @@
+
+
+}
+.titleImage {
+		margin: 0 auto;
+		width: 80vw;
+		height: 100vh;
+		background: url(../websites/collection/home.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	
+	}
+		.aboutImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/artist.jpeg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+	a {
+		text-decoration: none;
+		color: inherit;
+	}
+	.collectionImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/fire.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.aboutImage h2, .collectionImage h2 {
+		font-size: 30px;
+		font-family: 'Khula', sans-serif;
+		text-align: center;
+		padding-top: 40vh;
+		margin: 0;
+	}
+
+body {
+	margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 1500px) {
+
+		
+	}
+	.titleImage {
+		width: 100vw;
+		height: 110vh;
+		background: url(../websites/collection/home.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.aboutImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/artist.jpeg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
+	}
+	.collectionImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/fire.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.titleImage h1  {
+		font-size: 50px;
+		font-family: 'Khula', sans-serif;
+		text-align: center;
+		padding-top: 5vh;
+		margin: 0;
+
+	}
+	.aboutImage h2, .collectionImage h2 {
+		font-size: 30px;
+		font-family: 'Khula', sans-serif;
+		text-align: center;
+		padding-top: 40vh;
+		margin: 0;
+	}
+	
+
+
+	
+}
+
+@media only screen and (max-width: 700px) {
+	.titleImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/home.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.aboutImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/artist.jpeg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.collectionImage {
+		width: 100vw;
+		height: 80vh;
+		background: url(../websites/collection/fire.jpg) no-repeat center center; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.titleImage h1  {
+		font-size: 50px;
+		font-family: 'Khula', sans-serif;
+		text-align: center;
+		padding-top: 5vh;
+		margin: 0;
+	}
+	.aboutImage h2, .collectionImage h2 {
+		font-size: 30px;
+		font-family: 'Khula', sans-serif;
+		text-align: center;
+		padding-top: 40vh;
+		margin: 0;
+	}
+	}
+

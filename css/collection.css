@@ -1,0 +1,166 @@
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ .clearfix:after {
+    clear: both;
+}
+.container {
+	width: 100vw;
+}
+a {
+	color: inherit;
+}
+.fire img {
+	width: 50vw;
+
+}
+
+.col1 img, .col2 img{
+	
+	width: calc((100% / 2) - 25px)
+}
+
+}
+.home {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 20px;
+	
+}
+.about {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 125px;
+	
+}
+
+
+.collection {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 210px;
+}
+
+body {
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	font-family: 'Khula', sans-serif;
+	}
+}
+
+
+.home {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 20px;
+	text-decoration-color: black;
+}
+.about {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 125px;
+	
+}
+.box {
+	position: absolute;
+	width: 70px;
+	height: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    top: 24px;
+    left: 200px;
+}
+.collection {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 210px;
+}
+
+
+body {
+	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+	font-family: 'Khula', sans-serif;
+}
+@media only screen and (max-width: 1000px) {
+	img {
+	width: 50vw;
+	display: block;
+   	margin-top: 75px;
+}
+
+.home {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 20px;
+}
+.about {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 125px;
+	
+}
+.box {
+	position: absolute;
+	  width: 50px;
+	  height: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    top: 24px;
+    left: 113px;
+}
+.collection {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 210px;
+}
+
+}
+@media only screen and (max-width: 700px) {
+
+
+.home {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 20px;
+}
+.about {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 125px;
+	
+}
+.box {
+	position: absolute;
+	  width: 50px;
+	  height: 10px;
+    border: 2px solid black;
+    padding: 5px;
+    top: 24px;
+    left: 113px;
+}
+.collection {
+	position: absolute;
+	font-family: 'Khula', sans-serif;
+	top: 25px;
+	left: 210px;
+
+}
+}
