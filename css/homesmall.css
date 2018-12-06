@@ -10,14 +10,6 @@
 
 	
 	}
-.aboutImage:hover  {
-	opacity: 0.5;
-  filter: alpha(opacity=50);
-}
-.collectionImage:hover {
-	opacity: 0.5;
-  filter: alpha(opacity=50);
-}
 		.aboutImage {
 		width: 100vw;
 		height: 80vh;
@@ -43,18 +35,18 @@
 	}
 
 	.aboutImage h2, .collectionImage h2 {
-		font-size: 30px;
-		font-family: 'Khula', sans-serif;
+		font-size: 60px;
+		font-family: 'Kaushan Script', cursive;
 		text-align: center;
-		padding-top: 40vh;
+		padding-top: 2vh;
 		margin: 0;
 	}
 		.titleImage h1  {
-		font-size: 60px;
-		font-family: 'Raleway', sans-serif;
+		font-size: 70px;
+		font-family: 'Kaushan Script', cursive;
 		text-align: center;
 		margin: 0 auto;
-		padding: 5vw;
+		padding: 2vw;
 		}
 
 body {
@@ -103,15 +95,9 @@ body {
 	}
 	.aboutImage h2, .collectionImage h2 {
 		font-size: 30px;
-		font-family: 'Khula', sans-serif;
 		text-align: center;
-		padding-top: 40vh;
-		margin: 0;
+		
 	}
-	
-
-
-	
 }
 
 @media only screen and (max-width: 700px) {
@@ -149,10 +135,9 @@ body {
 		margin: 0;
 	}
 	.aboutImage h2, .collectionImage h2 {
-		font-size: 30px;
-		font-family: 'Khula', sans-serif;
+		font-size: 40px;
 		text-align: center;
-		padding-top: 40vh;
+		padding-top: 2vh;
 		margin: 0;
 	}
 	}

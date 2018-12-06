@@ -56,13 +56,9 @@ body {
 }
 h1 {
 	text-align: center;
-	font-family: 'Khula', sans-serif;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 50px;
 }
-
-
-}
-
-
 
 img {
 	width: 100vw;
@@ -112,10 +108,7 @@ p {
 body {
 	margin: 0 auto;
 }
-h1 {
-	text-align: center;
-	font-family: 'Khula', sans-serif;
-}
+
 @media only screen and (max-width: 1000px) {
 	img {
 	width: 100vw;
@@ -162,13 +155,8 @@ p {
 	text-align: justify;
 
 }
-h1 {
-	text-align: center;
-	font-family: 'Khula', sans-serif;
-	color: pink;
 }
-}
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 700px) {
 img {
 	width: 100vw;
 	display: block;
@@ -211,9 +199,5 @@ p {
 	margin: 0 auto;
 
 }
-h1 {
-	text-align: center;
-	font-family: 'Khula', sans-serif;
-	color: orange;
-}
+
 }
