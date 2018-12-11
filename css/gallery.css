@@ -3,23 +3,26 @@
 	font-family: 'Khula', sans-serif;
 	top: 25px;
 	left: 20px;
+	font-size: 20px;
 }
 .about {
 	position: absolute;
 	font-family: 'Khula', sans-serif;
 	top: 25px;
 	left: 125px;
+	font-size: 20px;
 }
 .collection {
 	position: absolute;
 	font-family: 'Khula', sans-serif;
 	top: 25px;
 	left: 210px;
+	font-size: 20px;
 }
 .box {
 	position: absolute;
-	  width: 72px;
-	  height: 10px;
+	width: 90px;
+	height: 13px;
     border: 2px solid black;
     padding: 5px;
     top: 22px;
@@ -48,32 +51,18 @@ margin-left: 50px;
 .row2 img, .row3 img, .row4 img {
 	margin-top: 50px;
 }
-.box {
-	position: absolute;
-	  width: 72px;
-	  height: 10px;
-    border: 2px solid green;
-    padding: 5px;
-    top: 22px;
-    left: 200px;
 }
 @media only screen and (max-width: 700px) {
 	
 .row1 img, .row2 img, .row3 img, .row4 img { 
-margin: auto 0;
-width: 100vw;
+margin-left: 5px;
+margin-top: 5px;
+width: 30vw;
 
 
 }
-.box {
-	position: absolute;
-	  width: 72px;
-	  height: 10px;
-    border: 2px solid red;
-    padding: 5px;
-    top: 22px;
-    left: 200px;
 }
+
 
 	
 
